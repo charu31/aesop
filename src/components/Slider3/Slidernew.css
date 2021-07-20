@@ -1,0 +1,96 @@
+.h1 {
+  color: white;
+}
+
+.topmost-cont3:hover .swiper-button-next,
+.topmost-cont3:hover .swiper-button-prev {
+  pointer-events: auto;
+  color: white;
+  font-size: 2px;
+  margin: -10px;
+  width: 60px;
+  padding: 30px;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) !important;
+  background: none;
+}
+.topmost-cont3:hover .swiper-button-next, .topmost-cont3:hover .swiper-button-prev {
+  background: #333;
+}
+
+@media (min-width: 1025px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px;
+}
+
+.swiper-scrollbar3 {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  height: 2px !important;
+}
+.swiper-scrollbar-drag3 {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  height: 2px !important;
+  width: 16.6667% !important;
+  transition: left 1s cubic-bezier(0.215, 0.61, 0.355, 1) !important;
+}
+
+.card-maincont3 {
+  color: #333;
+  font-family: Suisse Regular, sans-serif;
+  font-size: 14px;
+}
+
+.card-cont3 {
+  /* border: 2px solid pink; */
+  height: 100%;
+  line-height: 1.7;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px !important;
+  width: 100%;
+}
+
+.card-img-cont3 {
+  /* border: 2px solid rgb(27, 196, 27); */
+  width: auto;
+}
+
+.card-title3 {
+  margin: 10px 0;
+  font-family: Suisse Medium, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 100;
+}
+
+.card-desc3 {
+  font-family: Suisse Regular, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-img3 {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slider3 {
+  width: 100%;
+  padding-bottom: 0px !important;
+}
+@media (min-width: 320px) and (max-width: 1024px){
+    .slider3{
+        width: 90%;
+    } 
+}
+
